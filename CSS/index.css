@@ -1,0 +1,51 @@
+*{
+    margin:0;
+}
+
+body{
+    background-image:url('../Images/geometry1.png'),linear-gradient(rgba(0,0,0.5), rgb(0, 0, 0));
+}
+
+nav{
+    background-color:rgba(231, 230, 230, 0.916);
+    float:left;
+    height: 560px;
+}
+
+ul li{
+    list-style: none;
+    margin-left:0px;
+}
+
+.design{
+    background-color:rgba(26, 26, 39, 0.991);
+    padding:5px;
+}
+
+img{
+    width:10%;
+    box-shadow:1px black;
+    border-radius: 50% 50%;
+}
+
+h1{
+    text-align:center;
+    background-image:url('../Images/background1.jpg');
+    color:rgb(1, 1, 44);
+}
+
+section {
+    border: 1px solid;
+    padding:2px;
+    justify-items:flex-start;
+    width:50%;
+    margin-left:120px;
+}
+
+.main{
+    display:flex;
+    justify-content:space-evenly;
+}
+section h2{
+    text-decoration: underline;
+}
